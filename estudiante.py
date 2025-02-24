@@ -14,4 +14,4 @@ class Estudiante(Persona):
 
     def __str__(self):
         
-        return f"Datos estudiante: ({super().__str__()}, estan en el curso: {self._curso})"
+        return f"Datos estudiante: {super().__str__()}, estan en el curso: {self._curso}"

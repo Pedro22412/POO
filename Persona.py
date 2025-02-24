@@ -23,4 +23,4 @@ class Persona:
         self._direccion = direccion
 
     def __str__(self):
-        return f"El nombre del estudiante es {self._nombre}, su edad es: {self._edad}, y vive en {self._direccion})"
+        return f"El nombre del estudiante es {self._nombre}, su edad es: {self._edad}, y vive en {self._direccion}"
